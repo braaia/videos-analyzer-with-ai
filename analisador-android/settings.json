@@ -1,0 +1,9 @@
+[
+    {
+        "type": "numeric",
+        "title": "Tamanho da Fonte",
+        "desc": "Tamanho do texto (12-24)",
+        "section": "app",
+        "key": "font_size"
+    }
+]
