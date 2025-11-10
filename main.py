@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import YoutubeLoader
-from datetime import datetime
 
 # Carregar chave da API
 load_dotenv()
