@@ -10,7 +10,7 @@ os.environ['GROQ_API_KEY'] = api_key
 
 chat = ChatGroq(model='llama-3.3-70b-versatile')
 
-caminho = 'C:/Users/Braia/Documents/VS Code/My Projects/03. analisador de videos/teste.pdf'
+caminho = ''
 loader = PyPDFLoader(caminho)
 doc_list = loader.load()
 

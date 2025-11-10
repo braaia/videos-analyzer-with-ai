@@ -710,7 +710,7 @@ class VideoAnalyzerApp(App):
             self.add_message("system", f"Erro ao processar pergunta: {str(e)}")
 
     def _ask_groq(self, prompt):
-        headers = {"Authorization": "Bearer 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"}
+        headers = {"Authorization": "Bearer "}
         data = {
             "model": "llama3-70b-8192",
             "messages": [
